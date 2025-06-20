@@ -1,0 +1,153 @@
+#Container{
+  background-color: purple;
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  overflow: auto;
+}
+
+#Input_div{
+  height: 65vh;
+  width: 40vh;
+  margin: 5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* padding: auto; */
+  border-radius: 16px;
+  box-shadow: 30px 40px 30px  rgba(0, 0, 0, 0.214);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid rgba(255, 255, 255, 0.407);
+  /* all:unset; */
+
+}
+#Input_div:hover{
+  height: 67vh;
+  position: relative;
+  /* flex: 1; */
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.368);
+
+}
+
+
+#filechoose{
+ height: 15vh;
+ display: flex;
+ flex-wrap: wrap;
+ padding: 1vh;
+ border: 2px solid rgba(255, 235, 205, 0.303);
+ border-radius: 10px;
+}
+#filechoose:hover{
+   box-shadow: 20px 20px 20px rgba(0, 0, 0, 0.368) ;
+}
+
+#Prompt{
+  display: flex;
+  height:15vh;
+  border-radius: 5px;
+  padding: 0.5vh;
+  width: 37vh;
+  background-color: rgba(200, 100, 200, 0.16);
+  border: 2px solid rgba(71, 2, 71, 0.488);
+  color: #fff;
+  font-size: 2.2vh;
+  font-family: Arial, Helvetica, sans-serif;
+  /* position: absolute; */
+  
+}
+#Enter{
+   height:8vh ;
+   width: 25vh;
+   font-size: 3vh;
+   background-color: rgba(165, 6, 201, 0.584);
+   color: #fff;
+   border: 2px solid rgba(255, 255, 255, 0.495);
+   border-radius: 3rem;
+   /* position: absolute; */
+}
+#Enter:hover{
+  
+  border: 2px solid rgba(0, 0, 0, 0.266);
+  box-shadow: 5px 5px 5px rgba(255, 255, 255, 0.336);
+  border-radius: 3rem;
+}
+
+#Display{
+   
+  height: 70vh;
+  width: 60vh;
+  margin: 2.5vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  /* padding: auto; */
+  border-radius: 16px;
+  box-shadow: 30px 40px 30px  rgba(0, 0, 0, 0.214);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 2px solid rgba(255, 255, 255, 0.407);
+}
+#image_div{
+  height: 60vh;
+  width: 55vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  border: 3px solid rgba(255, 255, 255, 0.195);
+  border-radius: 9px;
+}
+
+#Download{
+  height: 7vh;
+
+  width: 20vh;
+  font-size: large;
+  margin: auto;
+  border: 2px solid wheat;
+  border-radius: 9px;
+  background: purple;
+  color: #fff;  
+}
+
+#Download:hover{
+   border-radius: 0px 20px 0px 20px;
+   background-color: wheat;
+   color: #a5177f;
+}
+/* 
+#Input-file{
+   background-color: rgba(147, 11, 147, 0.297);
+   border: 2px solid rgba(0, 0, 0, 0.011);
+   color: blueviolet;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding: 4px
+} */
+
+#Input-file{
+  color: #f4f0f3;
+}
+
+#Input-file::file-selector-button{
+   background-color: rgba(140, 31, 241, 0.571);
+   height: 5vh;
+   width: 20vh;
+   border: none;
+   border-radius: 10px;
+   color: #f4f0f3;
+   font-size: large;
+}
+
+h1{
+  color: white;
+}
+#Input-file::file-selector-button:hover{
+  background-color: #a5177f;
+}

@@ -1,0 +1,58 @@
+.start-button{
+  width: 200px;
+  height: 50px;
+  background: #fcfcfc;
+  border: none;
+  border-radius: 15px;
+  color: #000;
+  font-family:  'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 80px 10px 10px 10px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+.start-button:hover {
+  background-image: url('./assets/image.png'); /* Corrected this line */
+   background-size: cover;                    /*  Optional: cover the entire button */
+   /* background: linear-gradient(45deg, #ff416c, #ff4b2b, #1e3c72); Pink → Orange → Deep Blue */
+  background-position: center;                 /* Optional: center the image */
+  transform: scale(1.05);
+  color: #fefdfd;
+  font-size: 22px;
+  
+  text-shadow: 2px 2px 5px rgba(0,0,0,0.6);
+  font-weight: 900;
+
+}
+
+.Hello{
+  font-size: 34px;
+  font-weight: 900;
+
+}
+#name{
+  
+  font-size: 44px;
+  font-weight: 900;
+}
+
+
+.box {
+  width: 100%;
+  height: auto;
+  background: #181818;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;           /* Prevents blocks from wrapping */
+  justify-content: flex-start; /* Aligns blocks to the left */
+  align-items: center;
+  margin: 10px;
+  overflow-x: auto;            /* Enables horizontal scroll */
+  overflow-y: hidden;
+  /* gap: 20px;                   Adds space between blocks */
+  padding: 10px;
+  transition: all 0.3s ease-in-out;
+  scroll-behavior: smooth;
+}
